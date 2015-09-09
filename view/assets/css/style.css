@@ -1,0 +1,107 @@
+.top{
+	height: 70px;
+	background-color:  #1fb5ad;
+	margin-bottom: 50px;
+}
+
+@font-face {
+    font-family: scratch;
+    src: url(../fonts/Scratch_.ttf);
+}
+.txt{
+	font-family: scratch;
+	color: white;
+	font-size: 45px;
+	text-align: center;
+}
+.pswrd{
+	position: absolute;
+	margin-top: 390px;
+	margin-left: 515px;
+	padding: 16px;
+	width: 362px;
+}
+.mrgn{
+	margin-bottom: 20px;
+}
+.sid{
+	background-color: #1fb5ad;
+	border-color: #1fb5ad;
+	
+}
+.cloud{
+    color: #78d2ce;
+    margin-left: 15px;
+    margin-top: 5px;	
+}
+.usr{
+	 color: #78d2ce;
+	 margin-top: 10px;
+}
+.hed{
+	margin-left: 68px;
+	margin-top: -33px;
+	color: white;
+	font-size: 17px;
+	font-family: sans-serif;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #FFF;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+	background-color: #1fb5ad; 
+}
+.sidebar {
+	position: fixed;
+	top: 51px;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	display: block;
+	padding: 20px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #32323a;
+	border: 1px solid #32323a;
+}
+.main {
+	padding-right: 40px;
+	padding-left: 40px;
+	padding: 20px;
+}
+.main .page-header {
+	margin-top: 40px;
+}
+.nav-sidebar>li>a{
+	color: #1fb5ad;
+}
+.fldr{
+	position: relative;
+	margin-left: 1000px;
+	margin-top: -57px;
+}
+.fyl{
+    position: relative;
+	margin-top: 62px;
+    margin-left: 900px;
+}
+.nav > li > a:hover{
+	background-color: #32323a;
+}
+.flprw{
+	cursor: pointer;
+	text-decoration: none;
+}
+.flprw:hover{
+	text-decoration: none;
+}
+.shwfl{
+	cursor: pointer;
+	text-decoration: none;
+}
+.shwfl:hover{
+	text-decoration: none;
+}
+
